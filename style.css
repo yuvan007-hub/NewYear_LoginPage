@@ -1,1 +1,25 @@
+div{
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    background-image: url(image/img2.jpg);
+    background-repeat: no-repeat;
+}
+
+table{
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
 
