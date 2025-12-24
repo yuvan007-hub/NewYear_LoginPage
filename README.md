@@ -6,13 +6,7 @@
     <title> LOGIN FORM </title>
     <link rel="stylesheet" href="style.css">
 
-    <style>
-        @media screen and (max-width: 600px){
-            *{
-                float:none;
-            }
-        }
-    </style>
+    
 </head>
 <body>
     <img src="image/img1.jpg">
