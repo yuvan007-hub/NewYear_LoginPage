@@ -1,23 +1,69 @@
-div{
+/* Reset default margin */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+.bg-image {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Login Box */
+.login-box {
+    width: 450px;
+    margin: 80px auto;
     border: 3px solid black;
     border-radius: 30px;
-    display: inline-flex;
-    justify-content: flex-end
-    margin-right: 30px;
-    font-size: 20px;
-    color: white;
     background-image: url(image/img2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
 }
 
-table{
-    width: 400px;
-    height: 400px;
-}
-
-h1{
-    font-size: 30px;
+/* Heading */
+h1 {
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
+/* Table Styling */
+table {
+    width: 100%;
+    height: auto;
+}
 
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Forgot Password */
+.forgot {
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
